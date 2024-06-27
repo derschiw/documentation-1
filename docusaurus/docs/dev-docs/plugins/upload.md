@@ -619,6 +619,9 @@ async create(ctx) {
         caption: "Caption",
         alternativeText: "Alternative Text",
       },
+      refId: body.id,
+      ref: 'api::restaurant.restaurant',
+      field: 'file',
     },
     files: file,
   });
